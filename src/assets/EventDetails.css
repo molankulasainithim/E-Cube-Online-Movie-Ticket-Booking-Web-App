@@ -1,0 +1,13 @@
+.event-details-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .event-details-container h2 {
+    color: #007bff;
+  }
+  
+  .event-details-container p {
+    margin: 10px 0;
+  }
+  

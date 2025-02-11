@@ -1,0 +1,52 @@
+.final-booking-container {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #E7E8D1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    height: 325px;
+  }
+  
+  .final-booking-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .booking-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .qr-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  .ticket-details {
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .ticket-details p {
+    margin: 5px 0;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
+  .loading {
+    text-align: center;
+    font-style: italic;
+  }
+   

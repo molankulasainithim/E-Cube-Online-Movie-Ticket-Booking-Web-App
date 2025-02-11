@@ -1,0 +1,28 @@
+.events-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .events-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .event-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+    background-color: #e3f2fd;
+  }
+  

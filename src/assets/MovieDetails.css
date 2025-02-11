@@ -1,0 +1,166 @@
+.movie-details-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .movie-details {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  .movie-image {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .movie-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .book-button {
+    background-color: #B85042;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  .book-button:hover {
+    background-color: #ba4637;
+  }
+
+.ReactModal__Overlay {
+    background: rgba(0, 0, 0, 0.75) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .ReactModal__Content {
+    background: linear-gradient(135deg, #ffffff, #f3f4f6);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 500px;
+    margin-left: 350px;
+    max-width: 90%;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+  }
+
+  .ReactModal__Content h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #34495e;
+    font-weight: 600;
+  }
+
+  input,
+  select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+  }
+
+  .modal-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 10px 25px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .confirm {
+    background-color: #27ae60;
+    color: #fff;
+  }
+
+  .cancel {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+
+  input[type="date"] {
+    cursor: pointer;
+  }
+
+  select {
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  @keyframes modalFadeIn {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .ReactModal__Content {
+    animation: modalFadeIn 0.4s ease-in-out;
+  }
+
+  
