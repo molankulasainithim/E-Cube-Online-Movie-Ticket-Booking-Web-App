@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/E-Cube-Online-Movie-Booking-Web-App/static/css/main.1bdb81e3.css",
+    "main.js": "/E-Cube-Online-Movie-Booking-Web-App/static/js/main.6c974635.js",
+    "index.html": "/E-Cube-Online-Movie-Booking-Web-App/index.html",
+    "main.1bdb81e3.css.map": "/E-Cube-Online-Movie-Booking-Web-App/static/css/main.1bdb81e3.css.map",
+    "main.6c974635.js.map": "/E-Cube-Online-Movie-Booking-Web-App/static/js/main.6c974635.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bdb81e3.css",
+    "static/js/main.6c974635.js"
+  ]
+}
